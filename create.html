@@ -1,13 +1,14 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<title>Title of the document</title>
   	<link rel="stylesheet" href="styles.css">
+  	<link rel="php1" href="welcome.php">
 </head>
 <body>
 	<div id="register" class="animate form">
-			<form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+			<form action="welcome.php" method='get'> 
 				<h2> Create account </h2> 
 				<p> 
 					<label for="usernamesignup" class="uname" data-icon="u">Your username</label>
